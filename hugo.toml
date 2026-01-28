@@ -1,0 +1,67 @@
+baseURL = 'https://luke-hyungjin.github.io/cfd/'
+defaultContentLanguage = 'ko'
+theme = 'hugo-book'
+enableRobotsTXT = false
+
+[params]
+  BookTheme = 'auto'
+  BookToC = true
+  BookSection = 'docs'
+  BookRepo = 'https://github.com/LUKE-hyungjin/cfd'
+  BookMenuBundle = '/menu'
+  BookDateFormat = 'January 2, 2006'
+  BookMath = true
+
+  # SEO Parameters
+  description = 'Comprehensive guide to Cardiovascular CFD and Biofluid Mechanics'
+  author = 'Biofluid CFD Knowledge Guide'
+
+[languages]
+  [languages.ko]
+    languageCode = 'ko-KR'
+    languageName = '한국어'
+    title = '생체유체 CFD 지식 가이드'
+    weight = 1
+    contentDir = 'content/ko'
+    [languages.ko.params]
+      description = '심혈관 CFD와 생체유체역학 기초 지식 가이드'
+  [languages.en]
+    languageCode = 'en-US'
+    languageName = 'English'
+    title = 'Biofluid CFD Knowledge Guide'
+    weight = 2
+    contentDir = 'content/en'
+    [languages.en.params]
+      description = 'Comprehensive guide to Cardiovascular CFD and Biofluid Mechanics'
+
+# Sitemap configuration
+[sitemap]
+  changefreq = 'weekly'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+# Output formats
+[outputs]
+  home = ['HTML', 'RSS', 'JSON']
+  section = ['HTML', 'RSS']
+  page = ['HTML']
+
+# Minify HTML output
+[minify]
+  [minify.tdewolff]
+    [minify.tdewolff.html]
+      keepWhitespace = false
+
+# Goldmark markdown processor settings
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)'], ['$', '$']]
+
+[menu]
