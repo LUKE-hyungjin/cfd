@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://luke-hyungjin.github.io/sitemap.xml
+Sitemap: https://luke-hyungjin.github.io/cfd/sitemap.xml
 
 # Disallow admin and search
 Disallow: /search/
