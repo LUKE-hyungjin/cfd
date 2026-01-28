@@ -1,0 +1,26 @@
+---
+headless: true
+---
+
+- [**학습 로드맵**](/ko/docs/roadmap)
+- [**Top-Down**](/ko/docs/topdown)
+- [**Bottom-Up**](/ko/docs/bottomup)
+- **기초 이론**
+  - [유체역학](/ko/docs/fundamentals/fluid-mechanics)
+  - [유변학](/ko/docs/fundamentals/rheology)
+  - [수학](/ko/docs/fundamentals/math)
+  - [심혈관 기초](/ko/docs/fundamentals/cardiovascular)
+- **수치해법**
+  - [이산화 기법](/ko/docs/methods/discretization)
+  - [난류 모델링](/ko/docs/methods/turbulence)
+  - [유체-구조 연성](/ko/docs/methods/fsi)
+  - [격자 생성](/ko/docs/methods/meshing)
+  - [경계 조건](/ko/docs/methods/boundary)
+  - [의료영상 처리](/ko/docs/methods/imaging)
+- **응용 분야**
+  - [동맥류](/ko/docs/applications/aneurysm)
+  - [관상동맥](/ko/docs/applications/coronary)
+  - [심장 판막](/ko/docs/applications/valve)
+  - [심실](/ko/docs/applications/ventricle)
+  - [의료기기](/ko/docs/applications/device)
+- [**소프트웨어/자료**](/ko/docs/resources)

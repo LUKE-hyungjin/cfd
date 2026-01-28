@@ -1,0 +1,26 @@
+---
+headless: true
+---
+
+- [**Learning Roadmap**](/en/docs/roadmap)
+- [**Top-Down**](/en/docs/topdown)
+- [**Bottom-Up**](/en/docs/bottomup)
+- **Fundamentals**
+  - [Fluid Mechanics](/en/docs/fundamentals/fluid-mechanics)
+  - [Rheology](/en/docs/fundamentals/rheology)
+  - [Mathematics](/en/docs/fundamentals/math)
+  - [Cardiovascular Basics](/en/docs/fundamentals/cardiovascular)
+- **Methods**
+  - [Discretization](/en/docs/methods/discretization)
+  - [Turbulence Modeling](/en/docs/methods/turbulence)
+  - [Fluid-Structure Interaction](/en/docs/methods/fsi)
+  - [Meshing](/en/docs/methods/meshing)
+  - [Boundary Conditions](/en/docs/methods/boundary)
+  - [Medical Imaging](/en/docs/methods/imaging)
+- **Applications**
+  - [Aneurysm](/en/docs/applications/aneurysm)
+  - [Coronary Artery](/en/docs/applications/coronary)
+  - [Heart Valve](/en/docs/applications/valve)
+  - [Ventricle](/en/docs/applications/ventricle)
+  - [Medical Devices](/en/docs/applications/device)
+- [**Software/Resources**](/en/docs/resources)
