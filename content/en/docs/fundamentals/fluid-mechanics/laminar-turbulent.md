@@ -7,7 +7,7 @@ math: true
 # Laminar and Turbulent Flow
 
 {{% hint info %}}
-**Prerequisites**: [Navier-Stokes Equations](/en/docs/fundamentals/fluid-mechanics/navier-stokes)
+**Prerequisites**: [Navier-Stokes Equations](/cfd/en/docs/fundamentals/fluid-mechanics/navier-stokes)
 {{% /hint %}}
 
 ## One-line Summary
@@ -162,7 +162,7 @@ It's impossible to compute all scales of turbulence. So we use **turbulence mode
 - **LES**: Compute large eddies, model small ones (medium)
 - **DNS**: Compute everything (very slow, accurate)
 
-→ Details in [Turbulence Modeling](/en/docs/methods/turbulence)
+→ Details in [Turbulence Modeling](/cfd/en/docs/methods/turbulence)
 
 ## Laminar vs Turbulent: Wall Effects
 
@@ -190,4 +190,4 @@ Friction force on vessel walls. Very important in biofluid CFD!
 
 Learn about the boundary layer, a special region near walls in laminar flow:
 
-→ [Boundary Layer](/en/docs/fundamentals/fluid-mechanics/boundary-layer)
+→ [Boundary Layer](/cfd/en/docs/fundamentals/fluid-mechanics/boundary-layer)

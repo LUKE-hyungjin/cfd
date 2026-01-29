@@ -91,13 +91,13 @@ content/
    - O: `navier-stokes.md`
    - X: `나비에스토크스.md`
 
-3. **링크는 언어 prefix 포함하여 작성**
+3. **링크는 `/cfd/` prefix와 언어 prefix 포함하여 작성** (GitHub Pages 배포용)
    ```markdown
    # 한국어 콘텐츠에서
-   [Navier-Stokes](/ko/docs/fundamentals/navier-stokes)
+   [Navier-Stokes](/cfd/ko/docs/fundamentals/navier-stokes)
 
    # 영어 콘텐츠에서
-   [Navier-Stokes](/en/docs/fundamentals/navier-stokes)
+   [Navier-Stokes](/cfd/en/docs/fundamentals/navier-stokes)
    ```
 
 ### 번역 우선순위
@@ -130,7 +130,7 @@ content/
 **대학교 1학년 수준**으로 작성합니다. 고등학교 수학(미적분, 확률)은 알지만, 전공 지식은 없다고 가정합니다.
 
 1. **선수지식 명시**: 페이지 상단에 이 내용을 이해하기 위해 필요한 선수지식 링크 제공
-   - 예: "선수지식: [벡터 미적분](/ko/docs/fundamentals/vector-calculus), [연속체 역학](/ko/docs/fundamentals/continuum)"
+   - 예: "선수지식: [벡터 미적분](/cfd/ko/docs/fundamentals/vector-calculus), [연속체 역학](/cfd/ko/docs/fundamentals/continuum)"
 
 2. **비유 사용**: 복잡한 개념은 일상적인 비유로 먼저 설명
    - 예: "경계층은 물이 벽면 근처에서 '끈적이는' 영역입니다"
@@ -210,7 +210,7 @@ math: true
 # 개념명
 
 {{%/* hint info */%}}
-**선수지식**: [필요한 개념1](/ko/docs/fundamentals/xxx) | [필요한 개념2](/ko/docs/fundamentals/xxx)
+**선수지식**: [필요한 개념1](/cfd/ko/docs/fundamentals/xxx) | [필요한 개념2](/cfd/ko/docs/fundamentals/xxx)
 {{%/* /hint */%}}
 
 ## 한 줄 요약
@@ -238,9 +238,9 @@ $$
 간단한 예제로 개념 확인
 
 ## 관련 콘텐츠
-- [관련 기초 이론](/ko/docs/fundamentals/xxx)
-- [이 개념을 사용하는 수치해법](/ko/docs/methods/xxx)
-- [이 개념이 쓰이는 응용 분야](/ko/docs/applications/xxx)
+- [관련 기초 이론](/cfd/ko/docs/fundamentals/xxx)
+- [이 개념을 사용하는 수치해법](/cfd/ko/docs/methods/xxx)
+- [이 개념이 쓰이는 응용 분야](/cfd/ko/docs/applications/xxx)
 ```
 
 **English** (`content/en/docs/fundamentals/xxx.md`):
@@ -254,7 +254,7 @@ math: true
 # Concept Name
 
 {{%/* hint info */%}}
-**Prerequisites**: [Concept1](/en/docs/fundamentals/xxx) | [Concept2](/en/docs/fundamentals/xxx)
+**Prerequisites**: [Concept1](/cfd/en/docs/fundamentals/xxx) | [Concept2](/cfd/en/docs/fundamentals/xxx)
 {{%/* /hint */%}}
 
 ## One-line Summary
@@ -282,9 +282,9 @@ Explain the meaning of the formula with analogies or diagrams
 Simple example to verify understanding
 
 ## Related Content
-- [Related Fundamentals](/en/docs/fundamentals/xxx)
-- [Methods using this concept](/en/docs/methods/xxx)
-- [Applications of this concept](/en/docs/applications/xxx)
+- [Related Fundamentals](/cfd/en/docs/fundamentals/xxx)
+- [Methods using this concept](/cfd/en/docs/methods/xxx)
+- [Applications of this concept](/cfd/en/docs/applications/xxx)
 ```
 
 ### methods/ 템플릿
@@ -300,7 +300,7 @@ math: true
 # 수치해법명
 
 {{%/* hint info */%}}
-**선수지식**: [필요한 이론](/ko/docs/fundamentals/xxx) | [관련 기법](/ko/docs/methods/xxx)
+**선수지식**: [필요한 이론](/cfd/ko/docs/fundamentals/xxx) | [관련 기법](/cfd/ko/docs/methods/xxx)
 {{%/* /hint */%}}
 
 ## 한 줄 요약
@@ -332,9 +332,9 @@ $$
 ```
 
 ## 관련 콘텐츠
-- [선행 지식](/ko/docs/fundamentals/xxx)
-- [대안 기법](/ko/docs/methods/xxx)
-- [적용 분야](/ko/docs/applications/xxx)
+- [선행 지식](/cfd/ko/docs/fundamentals/xxx)
+- [대안 기법](/cfd/ko/docs/methods/xxx)
+- [적용 분야](/cfd/ko/docs/applications/xxx)
 ```
 
 **English** (`content/en/docs/methods/xxx.md`):
@@ -348,7 +348,7 @@ math: true
 # Method Name
 
 {{%/* hint info */%}}
-**Prerequisites**: [Required Theory](/en/docs/fundamentals/xxx) | [Related Method](/en/docs/methods/xxx)
+**Prerequisites**: [Required Theory](/cfd/en/docs/fundamentals/xxx) | [Related Method](/cfd/en/docs/methods/xxx)
 {{%/* /hint */%}}
 
 ## One-line Summary
@@ -380,9 +380,9 @@ $$
 ```
 
 ## Related Content
-- [Prerequisites](/en/docs/fundamentals/xxx)
-- [Alternative methods](/en/docs/methods/xxx)
-- [Applications](/en/docs/applications/xxx)
+- [Prerequisites](/cfd/en/docs/fundamentals/xxx)
+- [Alternative methods](/cfd/en/docs/methods/xxx)
+- [Applications](/cfd/en/docs/applications/xxx)
 ```
 
 ### applications/ 템플릿
@@ -398,7 +398,7 @@ math: true
 # 응용 분야명
 
 {{%/* hint info */%}}
-**선수지식**: [필요한 이론](/ko/docs/fundamentals/xxx) | [필요한 수치해법](/ko/docs/methods/xxx)
+**선수지식**: [필요한 이론](/cfd/ko/docs/fundamentals/xxx) | [필요한 수치해법](/cfd/ko/docs/methods/xxx)
 {{%/* /hint */%}}
 
 ## 문제 정의
@@ -419,9 +419,9 @@ math: true
 | 연구1 | 2020 | 기여 내용 |
 
 ## 관련 콘텐츠
-- [필요한 기초 이론](/ko/docs/fundamentals/xxx)
-- [사용되는 수치해법](/ko/docs/methods/xxx)
-- [관련 소프트웨어](/ko/docs/resources/xxx)
+- [필요한 기초 이론](/cfd/ko/docs/fundamentals/xxx)
+- [사용되는 수치해법](/cfd/ko/docs/methods/xxx)
+- [관련 소프트웨어](/cfd/ko/docs/resources/xxx)
 ```
 
 **English** (`content/en/docs/applications/xxx.md`):
@@ -435,7 +435,7 @@ math: true
 # Application Name
 
 {{%/* hint info */%}}
-**Prerequisites**: [Required Theory](/en/docs/fundamentals/xxx) | [Required Methods](/en/docs/methods/xxx)
+**Prerequisites**: [Required Theory](/cfd/en/docs/fundamentals/xxx) | [Required Methods](/cfd/en/docs/methods/xxx)
 {{%/* /hint */%}}
 
 ## Problem Definition
@@ -456,9 +456,9 @@ Special considerations for this application
 | Study1 | 2020 | Contribution |
 
 ## Related Content
-- [Required fundamentals](/en/docs/fundamentals/xxx)
-- [Methods used](/en/docs/methods/xxx)
-- [Related software](/en/docs/resources/xxx)
+- [Required fundamentals](/cfd/en/docs/fundamentals/xxx)
+- [Methods used](/cfd/en/docs/methods/xxx)
+- [Related software](/cfd/en/docs/resources/xxx)
 ```
 
 ### resources/ 템플릿
@@ -491,7 +491,7 @@ weight: 10
 | 튜토리얼1 | [링크](url) | 설명 |
 
 ## 관련 콘텐츠
-- [이 소프트웨어로 할 수 있는 응용](/ko/docs/applications/xxx)
+- [이 소프트웨어로 할 수 있는 응용](/cfd/ko/docs/applications/xxx)
 ```
 
 **English** (`content/en/docs/resources/xxx.md`):
@@ -522,7 +522,7 @@ Basic installation and getting started guide
 | Tutorial1 | [Link](url) | Description |
 
 ## Related Content
-- [Applications using this software](/en/docs/applications/xxx)
+- [Applications using this software](/cfd/en/docs/applications/xxx)
 ```
 
 ## 입구 페이지 수정 규칙
@@ -551,25 +551,27 @@ bookHidden: true              # 메뉴에서 숨기기
 
 ## 링크 문법
 
-Hugo Book 테마에서 내부 링크 (언어 prefix 포함):
+Hugo Book 테마에서 내부 링크 (`/cfd/` + 언어 prefix 포함, GitHub Pages용):
 ```markdown
 # 한국어 콘텐츠에서
-[표시 텍스트](/ko/docs/카테고리/파일명)
+[표시 텍스트](/cfd/ko/docs/카테고리/파일명)
 
 # 영어 콘텐츠에서
-[표시 텍스트](/en/docs/카테고리/파일명)
+[표시 텍스트](/cfd/en/docs/카테고리/파일명)
 ```
 
 예시:
 ```markdown
 # 한국어
-[Navier-Stokes](/ko/docs/fundamentals/navier-stokes)
-[FVM](/ko/docs/methods/fvm)
+[Navier-Stokes](/cfd/ko/docs/fundamentals/navier-stokes)
+[FVM](/cfd/ko/docs/methods/fvm)
 
 # 영어
-[Navier-Stokes](/en/docs/fundamentals/navier-stokes)
-[FVM](/en/docs/methods/fvm)
+[Navier-Stokes](/cfd/en/docs/fundamentals/navier-stokes)
+[FVM](/cfd/en/docs/methods/fvm)
 ```
+
+**중요**: GitHub Pages에서 `/cfd/` 경로로 배포되므로, 모든 내부 링크에 `/cfd/` prefix가 필수입니다.
 
 ## 수식 작성 규칙
 

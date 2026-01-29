@@ -7,7 +7,7 @@ math: true
 # 연속 방정식
 
 {{% hint info %}}
-**선수지식**: [유체란 무엇인가](/ko/docs/fundamentals/fluid-mechanics/what-is-fluid)
+**선수지식**: [유체란 무엇인가](/cfd/ko/docs/fundamentals/fluid-mechanics/what-is-fluid)
 {{% /hint %}}
 
 ## 한 줄 요약
@@ -164,4 +164,4 @@ $$
 
 질량이 보존된다는 건 알았습니다. 이제 유체가 **왜, 어떻게 움직이는지** 배웁니다:
 
-→ [Navier-Stokes 방정식](/ko/docs/fundamentals/fluid-mechanics/navier-stokes) (운동량 보존)
+→ [Navier-Stokes 방정식](/cfd/ko/docs/fundamentals/fluid-mechanics/navier-stokes) (운동량 보존)

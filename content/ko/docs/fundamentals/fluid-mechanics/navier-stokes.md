@@ -7,7 +7,7 @@ math: true
 # Navier-Stokes 방정식
 
 {{% hint info %}}
-**선수지식**: [유체란 무엇인가](/ko/docs/fundamentals/fluid-mechanics/what-is-fluid) | [연속 방정식](/ko/docs/fundamentals/fluid-mechanics/continuity)
+**선수지식**: [유체란 무엇인가](/cfd/ko/docs/fundamentals/fluid-mechanics/what-is-fluid) | [연속 방정식](/cfd/ko/docs/fundamentals/fluid-mechanics/continuity)
 {{% /hint %}}
 
 ## 한 줄 요약
@@ -178,8 +178,8 @@ $\mathbf{u} \cdot \nabla \mathbf{u}$ 항 때문에:
 | 흐름 | 정상 상태 | 맥동류 (심장 박동) |
 | 벽면 | 고정 | 탄성 (혈관이 늘어남) |
 
-→ [유변학](/ko/docs/fundamentals/rheology)에서 비뉴턴 유체 다룸
-→ [FSI](/ko/docs/methods/fsi)에서 혈관 벽 변형 다룸
+→ [유변학](/cfd/ko/docs/fundamentals/rheology)에서 비뉴턴 유체 다룸
+→ [FSI](/cfd/ko/docs/methods/fsi)에서 혈관 벽 변형 다룸
 
 ## 정리
 
@@ -195,4 +195,4 @@ $\mathbf{u} \cdot \nabla \mathbf{u}$ 항 때문에:
 
 레이놀즈 수에서 언급한 층류와 난류에 대해 더 자세히 배웁니다:
 
-→ [층류와 난류](/ko/docs/fundamentals/fluid-mechanics/laminar-turbulent)
+→ [층류와 난류](/cfd/ko/docs/fundamentals/fluid-mechanics/laminar-turbulent)

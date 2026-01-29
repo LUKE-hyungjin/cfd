@@ -7,7 +7,7 @@ math: true
 # 경계층
 
 {{% hint info %}}
-**선수지식**: [Navier-Stokes 방정식](/ko/docs/fundamentals/fluid-mechanics/navier-stokes) | [층류와 난류](/ko/docs/fundamentals/fluid-mechanics/laminar-turbulent)
+**선수지식**: [Navier-Stokes 방정식](/cfd/ko/docs/fundamentals/fluid-mechanics/navier-stokes) | [층류와 난류](/cfd/ko/docs/fundamentals/fluid-mechanics/laminar-turbulent)
 {{% /hint %}}
 
 ## 한 줄 요약
@@ -221,9 +221,9 @@ $$
 
 유체역학 기초를 마쳤습니다! 이제 혈액의 특별한 성질을 배웁니다:
 
-→ [유변학 (비뉴턴 유체)](/ko/docs/fundamentals/rheology) — 혈액은 보통 유체와 다릅니다
+→ [유변학 (비뉴턴 유체)](/cfd/ko/docs/fundamentals/rheology) — 혈액은 보통 유체와 다릅니다
 
 ## 관련 콘텐츠
 
-- [격자 생성](/ko/docs/methods/meshing) — 경계층 격자 만들기
-- [동맥류](/ko/docs/applications/aneurysm) — WSS 기반 파열 위험 예측
+- [격자 생성](/cfd/ko/docs/methods/meshing) — 경계층 격자 만들기
+- [동맥류](/cfd/ko/docs/applications/aneurysm) — WSS 기반 파열 위험 예측

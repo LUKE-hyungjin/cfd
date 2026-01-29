@@ -7,7 +7,7 @@ math: true
 # Navier-Stokes Equations
 
 {{% hint info %}}
-**Prerequisites**: [What is a Fluid](/en/docs/fundamentals/fluid-mechanics/what-is-fluid) | [Continuity Equation](/en/docs/fundamentals/fluid-mechanics/continuity)
+**Prerequisites**: [What is a Fluid](/cfd/en/docs/fundamentals/fluid-mechanics/what-is-fluid) | [Continuity Equation](/cfd/en/docs/fundamentals/fluid-mechanics/continuity)
 {{% /hint %}}
 
 ## One-line Summary
@@ -178,8 +178,8 @@ Considerations when solving Navier-Stokes for blood flow:
 | Flow | Steady state | Pulsatile (heartbeat) |
 | Wall | Fixed | Elastic (vessel stretches) |
 
-→ [Rheology](/en/docs/fundamentals/rheology) covers non-Newtonian fluids
-→ [FSI](/en/docs/methods/fsi) covers vessel wall deformation
+→ [Rheology](/cfd/en/docs/fundamentals/rheology) covers non-Newtonian fluids
+→ [FSI](/cfd/en/docs/methods/fsi) covers vessel wall deformation
 
 ## Summary
 
@@ -195,4 +195,4 @@ Considerations when solving Navier-Stokes for blood flow:
 
 Learn more about laminar and turbulent flow mentioned with Reynolds number:
 
-→ [Laminar and Turbulent Flow](/en/docs/fundamentals/fluid-mechanics/laminar-turbulent)
+→ [Laminar and Turbulent Flow](/cfd/en/docs/fundamentals/fluid-mechanics/laminar-turbulent)

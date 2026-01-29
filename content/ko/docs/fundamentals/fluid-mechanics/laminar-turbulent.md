@@ -7,7 +7,7 @@ math: true
 # 층류와 난류
 
 {{% hint info %}}
-**선수지식**: [Navier-Stokes 방정식](/ko/docs/fundamentals/fluid-mechanics/navier-stokes)
+**선수지식**: [Navier-Stokes 방정식](/cfd/ko/docs/fundamentals/fluid-mechanics/navier-stokes)
 {{% /hint %}}
 
 ## 한 줄 요약
@@ -162,7 +162,7 @@ $$
 - **LES**: 큰 소용돌이는 계산, 작은 건 모델링 (중간)
 - **DNS**: 다 계산 (매우 느림, 정확)
 
-→ [난류 모델링](/ko/docs/methods/turbulence)에서 자세히 다룸
+→ [난류 모델링](/cfd/ko/docs/methods/turbulence)에서 자세히 다룸
 
 ## 층류 vs 난류: 벽면 영향
 
@@ -190,4 +190,4 @@ $$
 
 층류에서 벽면 근처의 특별한 영역인 경계층에 대해 배웁니다:
 
-→ [경계층](/ko/docs/fundamentals/fluid-mechanics/boundary-layer)
+→ [경계층](/cfd/ko/docs/fundamentals/fluid-mechanics/boundary-layer)

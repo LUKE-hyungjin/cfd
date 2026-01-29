@@ -7,7 +7,7 @@ math: true
 # Boundary Layer
 
 {{% hint info %}}
-**Prerequisites**: [Navier-Stokes Equations](/en/docs/fundamentals/fluid-mechanics/navier-stokes) | [Laminar and Turbulent Flow](/en/docs/fundamentals/fluid-mechanics/laminar-turbulent)
+**Prerequisites**: [Navier-Stokes Equations](/cfd/en/docs/fundamentals/fluid-mechanics/navier-stokes) | [Laminar and Turbulent Flow](/cfd/en/docs/fundamentals/fluid-mechanics/laminar-turbulent)
 {{% /hint %}}
 
 ## One-line Summary
@@ -221,9 +221,9 @@ In biofluid CFD, WSS is important, so we typically target **y+ < 1**.
 
 You've completed fluid mechanics basics! Now learn about blood's special properties:
 
-→ [Rheology (Non-Newtonian Fluids)](/en/docs/fundamentals/rheology) — Blood is different from regular fluids
+→ [Rheology (Non-Newtonian Fluids)](/cfd/en/docs/fundamentals/rheology) — Blood is different from regular fluids
 
 ## Related Content
 
-- [Meshing](/en/docs/methods/meshing) — Creating boundary layer mesh
-- [Aneurysm](/en/docs/applications/aneurysm) — WSS-based rupture risk prediction
+- [Meshing](/cfd/en/docs/methods/meshing) — Creating boundary layer mesh
+- [Aneurysm](/cfd/en/docs/applications/aneurysm) — WSS-based rupture risk prediction

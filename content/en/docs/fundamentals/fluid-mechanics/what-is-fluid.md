@@ -131,4 +131,4 @@ Understanding blood properties is essential for cardiovascular simulation:
 
 Now that you know what a fluid is, learn what **laws** fluids follow:
 
-→ [Continuity Equation](/en/docs/fundamentals/fluid-mechanics/continuity) (Conservation of Mass)
+→ [Continuity Equation](/cfd/en/docs/fundamentals/fluid-mechanics/continuity) (Conservation of Mass)

@@ -131,4 +131,4 @@ $$
 
 유체가 뭔지 알았으니, 이제 유체가 **어떤 법칙**을 따르는지 배웁니다:
 
-→ [연속 방정식](/ko/docs/fundamentals/fluid-mechanics/continuity) (질량 보존)
+→ [연속 방정식](/cfd/ko/docs/fundamentals/fluid-mechanics/continuity) (질량 보존)

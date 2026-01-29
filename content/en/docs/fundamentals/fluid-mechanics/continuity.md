@@ -7,7 +7,7 @@ math: true
 # Continuity Equation
 
 {{% hint info %}}
-**Prerequisites**: [What is a Fluid](/en/docs/fundamentals/fluid-mechanics/what-is-fluid)
+**Prerequisites**: [What is a Fluid](/cfd/en/docs/fundamentals/fluid-mechanics/what-is-fluid)
 {{% /hint %}}
 
 ## One-line Summary
@@ -164,4 +164,4 @@ This is called **pressure-velocity coupling**, handled by algorithms like SIMPLE
 
 We know mass is conserved. Now learn **why and how** fluids move:
 
-→ [Navier-Stokes Equations](/en/docs/fundamentals/fluid-mechanics/navier-stokes) (Momentum Conservation)
+→ [Navier-Stokes Equations](/cfd/en/docs/fundamentals/fluid-mechanics/navier-stokes) (Momentum Conservation)
