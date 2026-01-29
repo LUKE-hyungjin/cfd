@@ -2,8 +2,6 @@ baseURL = 'https://luke-hyungjin.github.io/cfd/'
 defaultContentLanguage = 'ko'
 theme = 'hugo-book'
 enableRobotsTXT = false
-relativeURLs = true
-canonifyURLs = false
 
 [params]
   BookTheme = 'auto'
